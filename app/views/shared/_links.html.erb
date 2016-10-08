@@ -1,6 +1,10 @@
 <div id="links" class="well">
   <h5>
     <%= fa_icon 'newspaper-o' %>
+    <%= link_to @user.name, @user %>
+  </h5>
+  <h5>
+    <%= fa_icon 'newspaper-o' %>
     <%= link_to 'NewsFeed', root_path %>
   </h5>
   <h5>
